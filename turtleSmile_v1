@@ -1,0 +1,40 @@
+# WorldSmileDay Python example assignment by UrbanAtWork  :)
+
+import turtle
+
+#draw 1st eye
+turtle.penup()
+turtle.goto(-50,100)
+turtle.pendown()
+turtle.circle(30,360)
+
+#draw 2nd eye
+turtle.penup()
+turtle.goto(50,100)
+turtle.pendown()
+turtle.circle(30,360)
+
+#draw mouth
+turtle.penup()
+turtle.setheading(260)
+turtle.goto(90,50)
+turtle.pendown()
+turtle.circle(-100,160)
+
+
+'''
+This was quickly done before class but please follow these directions
+
+Please add the following:
+    1. draw head and color it yellow
+    2. use a for loop to draw one or more of the elements
+    3. include user input to make the smile get bigger
+    4. add inside and outer parts to the eye (see example)
+
+Example:
+
+#draw outter eye
+turtle.pendown()
+turtle.circle(50,360)
+
+'''
